@@ -12,7 +12,7 @@ if today.month == 12:
             file.writelines(template.readlines())
             file.close()
 
-            file = open(f"Day {i:02}/input.txt","w")
+            file = open(f"Day {i:02}/day{i:02}.txt","w")
             file.close()
 
             print(f"Day {i:02} Generated")
